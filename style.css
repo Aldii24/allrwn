@@ -417,7 +417,7 @@ body {
         left: -100%;
         width: 15rem;
         height: 100vh;
-        margin: 55px 20px;
+        margin: 55px 0;
         flex-direction: column;
         background-color: var(--bg-color);
         transition: .3s all ease;
@@ -429,6 +429,7 @@ body {
 
     .navbar-nav a {
         padding-top: 10px;
+        margin-left: 20px;
     }
 
     .navbar-nav a:hover::after {
@@ -465,7 +466,7 @@ body {
         flex-direction: column;
     }
 
-    .about-title h3, .favorites-title h3 {
+    .about-title h3, .favorites-title h3, .project-title h3 {
         text-align: center;
         font-size: 50px;
     }
@@ -485,7 +486,7 @@ body {
 
     .w-25 {
         width: 50% !important;
-    }
+    } 
 
     .content-contact {
         flex-direction: column;
@@ -526,7 +527,7 @@ body {
         -o-border-radius: 50%;
     }
 
-    .about-title h3, .favorites-title h3 {
+    .about-title h3, .favorites-title h3, .project-title h3 {
         font-size: 40px;
     }
 
