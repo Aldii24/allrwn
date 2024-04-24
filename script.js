@@ -10,3 +10,10 @@ document.addEventListener("click", (e) => {
         navbarNav.classList.remove("active")
     }
 })
+
+//add music
+const music = document.getElementById("logo")
+
+music.addEventListener("click", () => {
+    document.getElementById("audio").play()
+})
