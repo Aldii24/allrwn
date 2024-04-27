@@ -155,7 +155,7 @@
                 </p>
                 <div style="min-height: 120px;">
                     <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                        <div class="card card-body" style="width: 300px;">
+                        <div class="card card-body" style="width: 300px; color: #222;">
                             I LIKE THE MOON, THE SUNSET, THE BEACH AND ALSO LIKE YOU XIXIXI
                         </div>
                     </div>
@@ -210,13 +210,13 @@
 
             <div class="content-contact" id="contact">
                 <div class="contact-form">
-                    <form action="">
+                    <form onsubmit="sendMessage()">
                         <label for="name">NAME</label>
-                        <input type="text">
+                        <input type="text" id="name">
                         <label for="email">EMAIL</label>
                         <input type="email">
                         <label for="message">MESSAGE</label>
-                        <input type="text">
+                        <input type="text" id="message">
                         <button type="submit">SEND <i class="fa-solid fa-paper-plane"></i></button>
                     </form>
                 </div>

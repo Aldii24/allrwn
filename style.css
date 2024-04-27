@@ -3,9 +3,9 @@
 
 :root {
     --font-family: 'Abel', sans-serif;
-    --bg-color: #322C2B;
+    --bg-color: #191919;
     --primary-color: #010101;
-    --secondary-color: #5e6f83;
+    --secondary-color: #FAF0E6;
 }
 
 * {
@@ -391,9 +391,10 @@ body {
     padding: 8px;
     margin-top: 10px;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--bg-color);
     border: none;
     outline: none;
+    font-weight: 600;
     opacity: 0.8;
     transition: .3s all ease;
     border-radius: 20px;
