@@ -165,14 +165,15 @@ body {
     gap: 15px;
 }
 
-.navbar-socials a {
+.navbar-socials p {
     color: var(--secondary-color);
     font-size: 20px;
     opacity: 0.8;
 }
 
-.navbar-socials a:hover {
+.navbar-socials p:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .content {
