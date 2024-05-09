@@ -158,6 +158,7 @@ body {
 .navbar-extra {
     display: flex;
     gap: 20px;
+    margin-top: 10px;
 }
 
 .navbar-socials {
@@ -534,7 +535,7 @@ body {
 
     .w-25 {
         width: 50% !important;
-    } 
+    }
 
     .content-contact {
         flex-direction: column;
