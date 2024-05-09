@@ -13,11 +13,12 @@ document.addEventListener("click", (e) => {
     }
 })
 
-//add music
-const music = document.getElementById("logo")
 
-music.addEventListener("click", () => {
-    document.getElementById("audio").play()
+// add music from button
+const playMusic = document.getElementById("play");
+
+playMusic.addEventListener("click", () => {
+    document.getElementById("music").play()
 })
 
 //send message
